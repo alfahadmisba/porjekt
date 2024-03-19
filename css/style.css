@@ -8,32 +8,76 @@ body{
 /*common end*/
 /*header start*/
 header{
-
+	border: 1px solid black;
+	padding 15px 0;
 }
 
 .container{
 	width: 90%;
-	border:1px solid red;
 	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo{
+	width: 10%;
+	
+	/*border: 1px solid red;*/
+	float: left;
 }
 .logo a{
-	width: 10%;
-	border: 1px solid red;
-
+	display: flex;
 }
 .logo a img{
 	width: 100%;
-	
+}
+
+.menu{
+	width: 60%;
+	/*border: 1px solid red;*/
+	float: right;
 }
 .menu ul{
-	folat: right;
-	border: 1px solid red;
 	float: right;
 }
 .menu ul li{
 	list-style: none;
+	float: left;
 }
 .menu ul li a{
-
+	text-decoration: none;
+	padding: 0px 15px;
+	display: inline-block;
+	color: #0f2656;
+}
+.menu ul li a:hover
+.menu ul li:last-child a{
+	passing-right: 0;
 }
 /*header end*/
+/*banner start*/
+.banner {
+	padding: 50px 0;
+}
+.container2 {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.b_h1{
+    font-size: 50px;
+	font-weight: 700;
+	
+
+}
+.b_p{
+
+}
+.b_img{
+
+}
+.b_img img{
+
+}
+/*banner end*/
