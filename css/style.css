@@ -66,18 +66,23 @@ header{
 	text-align: center;
 }
 .b_h1{
+	margin: 0;
     font-size: 50px;
-	font-weight: 700;
-	
-
+	font-weight: 700	asf;
+	line-height: 65px;
+}
+.b_h1{
+	color: #1493ff;
 }
 .b_p{
-
+	line-height: 25px;
+	margin: 10px 0 20px
 }
 .b_img{
-
+	margin: 0 auto;
+	widit: 80%
 }
 .b_img img{
-
+	width: 100%;
 }
 /*banner end*/
